@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'CodingKungfu-Icons';
-  src:  url('fonts/CodingKungfu-Icons.eot?87vyj8');
-  src:  url('fonts/CodingKungfu-Icons.eot?87vyj8#iefix') format('embedded-opentype'),
-    url('fonts/CodingKungfu-Icons.ttf?87vyj8') format('truetype'),
-    url('fonts/CodingKungfu-Icons.woff?87vyj8') format('woff'),
-    url('fonts/CodingKungfu-Icons.svg?87vyj8#CodingKungfu-Icons') format('svg');
+  src:  url('fonts/CodingKungfu-Icons.eot?kuh30');
+  src:  url('fonts/CodingKungfu-Icons.eot?kuh30#iefix') format('embedded-opentype'),
+    url('fonts/CodingKungfu-Icons.ttf?kuh30') format('truetype'),
+    url('fonts/CodingKungfu-Icons.woff?kuh30') format('woff'),
+    url('fonts/CodingKungfu-Icons.svg?kuh30#CodingKungfu-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.cf-icon-analytics:before {
+  content: "\e902";
+}
 .cf-icon-structure:before {
   content: "\e901";
 }
